@@ -1,9 +1,9 @@
 services:
   - name: fastapi-app
     buildCommand: |
-      Fastapi-deploy\pi-env\Scripts\activate.bat
-      pip install -r Fastapi-deploy/requirements.txt
-    startCommand: uvicorn Fastapi-deploy.main:app --host 0.0.0.0 --port $PORT --log-level debug
+      source Fastapi-deploy/pi-env/Scripts/activate
+      pip install -r requirements.txt
+    startCommand: uvicorn Fastapi-deploy.main:app --host 0.0.0.0 --port $PORT
     env:
       - key: PYTHONUNBUFFERED
         value: '1'
