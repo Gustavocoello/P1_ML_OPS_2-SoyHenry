@@ -1,0 +1,7 @@
+Fastapi-deploy/*
+!fastapi-deploy/main.py
+Data/
+ETL/*
+!ETL/ETL.ipynb
+ML/*
+!ML/RecSys.ipynb
