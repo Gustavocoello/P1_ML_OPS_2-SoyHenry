@@ -3,6 +3,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
 import numpy as np
+import os 
 
 
 app = FastAPI()
@@ -11,6 +12,8 @@ app = FastAPI()
 # pi-env\scripts\Activate.bat (Activar el entorno virtual)
 # uvicorn main:app --reload (Activar fastApi)
 
+# Cambiar el directorio de trabajo a la carpeta 'Fastapi-deploy'
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # Datos
 day = pd.read_parquet("day.parquet")
 per_month = pd.read_parquet("mes.parquet")
