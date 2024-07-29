@@ -1,7 +1,8 @@
 services:
   - name: P1_ML_OPS_2-SoyHenry
-    buildCommand: pip install -r ./Fastapi-deploy/requirements.txt
+    buildCommand: pip install -r Fastapi-deploy/requirements.txt
     startCommand: uvicorn Fastapi-deploy.main:app --host 0.0.0.0 --port $PORT
     env:
       - key: PYTHONUNBUFFERED
         value: '1'
+
