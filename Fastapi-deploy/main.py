@@ -19,7 +19,7 @@ day = pd.read_parquet("day.parquet")
 per_month = pd.read_parquet("mes.parquet")
 matriz = pd.read_parquet("ml1.parquet")
 # Crear el CountVectorizer y transformar los datos
-cv = CountVectorizer(max_features = 5000, stop_words= 'english')
+cv = CountVectorizer(max_features = 3000, stop_words= 'english')
 vectors = cv.fit_transform(matriz['tags']).toarray()
 # Calcular la similitud  del coseno
 similarity = cosine_similarity(vectors)
