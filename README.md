@@ -20,7 +20,7 @@ Este proyecto se basa en un **`MLOps`**, y un **`MVP`** (_Minimum Viable Product
 ></div>
 ><div>
 > Archivos creados: </div>
-><div>
+>
 > [ETL.ipynb](ETL/ETL.ipynb): Contiene todas las transformaciones necesarias y requeridas para completa este proyecto</div>
 > [EDA.ipynb](EDA/EDA.ipynb): <div> Contiene el analísis, descriptivos, estadístico realizado, contiene grafícos, columnas de agregación(Echa un Vistazo :eyes:)</div>
 > [RecSys.ipynb](ML/RecSys.ipynb): <div> Contiene el sistema de recomendación de películas</div>
