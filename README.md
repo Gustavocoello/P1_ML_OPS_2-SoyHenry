@@ -18,8 +18,9 @@ Este proyecto se basa en un **`MLOps`**, y un **`MVP`** (_Minimum Viable Product
 > <div>
 > **Transformación de Datos:** Los datos en mal estado se transforman para un mejor manejo, conocimiento e implementación.
 ></div>
+><div>
+> *Archivos creados:* <div>
 >
-> *Archivos creados:*
 > [ETL.ipynb](ETL/ETL.ipynb): <div> Contiene todas las transformaciones necesarias y requeridas para completa este proyecto</div>
 > [EDA.ipynb](EDA/EDA.ipynb): <div> Contiene el analísis, descriptivos, estadístico realizado, contiene grafícos, columnas de agregación(Echa un Vistazo :eyes:)</div>
 > [RecSys.ipynb](ML/RecSys.ipynb): <div> Contiene el sistema de recomendación de películas</div>
