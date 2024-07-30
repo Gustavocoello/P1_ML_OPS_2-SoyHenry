@@ -14,15 +14,6 @@ app = FastAPI()
 
 # Cambiar el directorio de trabajo a la carpeta 'Fastapi-deploy'
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-# Datos
-day = pd.read_parquet("day.parquet")
-per_month = pd.read_parquet("mes.parquet")
-matriz = pd.read_parquet("ml1.parquet")
-# Crear el CountVectorizer y transformar los datos
-cv = CountVectorizer(max_features = 3000, stop_words= 'english')
-vectors = cv.fit_transform(matriz['tags']).toarray()
-# Calcular la similitud  del coseno
-similarity = cosine_similarity(vectors)
 
 @app.get("/")
 def index():
@@ -30,6 +21,13 @@ def index():
 
 @app.get("/recomendacion/")
 async def recomendacion(movie):
+    matriz = pd.read_parquet("ml1.parquet")
+    vector = pd.read_parquet("vector.parquet")
+    # Convertimos de df a numpy
+    vectors = vector.to_numpy()
+    # Calcular la similitud  del coseno
+    similarity = cosine_similarity(vectors)
+
     movie_index = matriz[matriz['name'] == movie].index[0]
     distances = similarity[movie_index]
     movies_list = sorted(list(enumerate(distances)), reverse = True, key = lambda x:x[1])[1:6]
@@ -39,7 +37,7 @@ async def recomendacion(movie):
 
 @app.get("/cantidad_filmaciones_mes/")
 async def cantidad_filmaciones_mes(Mes):
-    
+    per_month = pd.read_parquet("mes.parquet")
     Mes = Mes.capitalize()
     
     mes_filtrado = per_month[per_month['mes_name'] == Mes]
@@ -51,6 +49,7 @@ async def cantidad_filmaciones_mes(Mes):
 @app.get("/cantidad_filmaciones_dia/")    
 async def cantidad_filmaciones_dia(dia):
     
+    day = pd.read_parquet("day.parquet")
     dia = dia.capitalize()
     
     mes_filtrado = day[day['dia_name'] == dia]
