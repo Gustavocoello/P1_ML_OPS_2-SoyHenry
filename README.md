@@ -14,12 +14,14 @@ Este proyecto se basa en un **`MLOps`**, y un **`MVP`** (_Minimum Viable Product
 
 
 ### Características del PROYECTO
- - Transformación de Datos: Los datos en mal estado se transforman para un mejor manejo, conocimiento e implementación. 
- - Archivos creados:
- >  [ETL.ipynb](ETL/ETL.ipynb): <div> Contiene todas las transformaciones necesarias y requeridas para completa este proyecto</div>
- > <[EDA.ipynb](EDA/EDA.ipynb): <div> Contiene el analísis, descriptivos, estadístico realizado, contiene grafícos, columnas de agregación(Echa un Vistazo :muscle:)</div>
- > [RecSys.ipynb](ML/RecSys.ipynb): <div> Contiene el sistema de recomendación de películas</div>
- > [main.py](Fastapi-deploy/main.py): <div> Contiene las funciones requeridas para deployar el modelo, además contiene otras funciones</div>
+
+> <div>*Transformación de Datos:* Los datos en mal estado se transforman para un mejor manejo, conocimiento e implementación.</div>
+
+> *Archivos creados:*
+>  [ETL.ipynb](ETL/ETL.ipynb): <div> Contiene todas las transformaciones necesarias y requeridas para completa este proyecto</div>
+> [EDA.ipynb](EDA/EDA.ipynb): <div> Contiene el analísis, descriptivos, estadístico realizado, contiene grafícos, columnas de agregación(Echa un Vistazo :muscle:)</div>
+> [RecSys.ipynb](ML/RecSys.ipynb): <div> Contiene el sistema de recomendación de películas</div>
+> [main.py](Fastapi-deploy/main.py): <div> Contiene las funciones requeridas para deployar el modelo, además contiene otras funciones</div>
   
 ### Tecnologías Utilizadas
 - Lenguaje de Programación: Python
@@ -32,6 +34,7 @@ Este proyecto se basa en un **`MLOps`**, y un **`MVP`** (_Minimum Viable Product
 (No te olvides de colocar el /docs.)
 #### Link del video: 
 
+
 ### ***Contribución***
 Instrucciones para contribuir al proyecto:
 Si deseas contribuir al proyecto, por favor sigue estos pasos:
@@ -42,5 +45,7 @@ Si deseas contribuir al proyecto, por favor sigue estos pasos:
 
 ### **Contacto**
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFj0nRA6IGdiDX9F2w6Lf0ID1eawspelurQ&usqp=CAU" alt="Para preguntas o comentarios, por favor contacta a [GustavoCoello](coellog634@gamil.com).
-" width="200" height="150" />
+| ![Tu Imagen de Perfil](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFj0nRA6IGdiDX9F2w6Lf0ID1eawspelurQ&usqp=CAU) | **Contacto:**<br>Email: [coellog634@gmail.com](mailto:coellog634@gmail.com)<br>LinkedIn: [Gustavo Coello](https://www.linkedin.com/in/gustavo-coello-01039b270) |
+|-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+|                                               |                                                                                                                            |
+
