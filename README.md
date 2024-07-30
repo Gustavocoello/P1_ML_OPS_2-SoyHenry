@@ -16,10 +16,10 @@ Este proyecto se basa en un **`MLOps`**, y un **`MVP`** (_Minimum Viable Product
 ### Características del PROYECTO
  - Transformación de Datos: Los datos en mal estado se transforman para un mejor manejo, conocimiento e implementación. 
  - Archivos creados:
- >  [ETL.ipynb](ETL/ETL.ipynb): Contiene todas las transformaciones necesarias y requeridas para completa este proyecto
- > [EDA.ipynb](EDA/EDA.ipynb): Contiene el analísis, descriptivos, estadístico realizado, contiene grafícos, columnas de agregación(Echa un Vistazo :muscle:)
- > [RecSys.ipynb](ML/RecSys.ipynb): Contiene el sistema de recomendación de películas
- > [main.py](Fastapi-deploy/main.py): Contiene las funciones requeridas para deployar el modelo, además contiene otras funciones
+ >  <div>[ETL.ipynb](ETL/ETL.ipynb): Contiene todas las transformaciones necesarias y requeridas para completa este proyecto</div>
+ > <div>[EDA.ipynb](EDA/EDA.ipynb): Contiene el analísis, descriptivos, estadístico realizado, contiene grafícos, columnas de agregación(Echa un Vistazo :muscle:)</div>
+ > <div>[RecSys.ipynb](ML/RecSys.ipynb): Contiene el sistema de recomendación de películas</div>
+ > <div>[main.py](Fastapi-deploy/main.py): Contiene las funciones requeridas para deployar el modelo, además contiene otras funciones</div>
   
 ### Tecnologías Utilizadas
 - Lenguaje de Programación: Python
@@ -42,5 +42,5 @@ Si deseas contribuir al proyecto, por favor sigue estos pasos:
 
 ### **Contacto**
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoBrBAywPpiz9Z3jeK3MJvpDVefh5J5l8e0AXBQhQ4Ggi_Un5JSKEl7YgPgZdzFm1F47c&usqp=CAU" alt="Para preguntas o comentarios, por favor contacta a [GustavoCoello](coellog634@gamil.com).
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFj0nRA6IGdiDX9F2w6Lf0ID1eawspelurQ&usqp=CAU" alt="Para preguntas o comentarios, por favor contacta a [GustavoCoello](coellog634@gamil.com).
 " width="200" height="150" />
