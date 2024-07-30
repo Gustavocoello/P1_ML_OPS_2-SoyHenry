@@ -23,8 +23,10 @@ Este proyecto se basa en un **`MLOps`**, y un **`MVP`** (_Minimum Viable Product
 >
 > [ETL.ipynb](ETL/ETL.ipynb): Contiene todas las transformaciones necesarias y requeridas para completa este proyecto
 >
-> [EDA.ipynb](EDA/EDA.ipynb): <div> Contiene el analísis, descriptivos, estadístico realizado, contiene grafícos, columnas de agregación(Echa un Vistazo :eyes:)</div>
-> [RecSys.ipynb](ML/RecSys.ipynb): <div> Contiene el sistema de recomendación de películas</div>
+> [EDA.ipynb](EDA/EDA.ipynb): Contiene el analísis, descriptivos, estadístico realizado, contiene grafícos, columnas de agregación(Echa un Vistazo :eyes:)
+>
+> [RecSys.ipynb](ML/RecSys.ipynb):  Contiene el sistema de recomendación de películas
+>
 > [main.py](Fastapi-deploy/main.py): <div> Contiene las funciones requeridas para deployar el modelo, además contiene otras funciones</div>
   
 ### Tecnologías Utilizadas
