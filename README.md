@@ -10,17 +10,18 @@ Este proyecto implementa un sistema de recomendación de películas utilizando t
 
 El sistema de recomendación de películas se basa principalmente que las características de la misma, basandose en su `Director`, los tres primeros `actores`, y se fundamenta con el `contenido de la película`, en pocas palabras con su narración. 
 
-Este proyecto se basa en un **`MLOps`**, y un **`MVP`** (_Minimum Viable Product_)
+Este proyecto se basa en un **`MLOps`**, y un **`MVP`** (_Minimum Viable Product_):muscle:
 
 
 ### Características del PROYECTO
 
-> <div>*Transformación de Datos:* Los datos en mal estado se transforman para un mejor manejo, conocimiento e implementación.</div>
+> <div>*Transformación de Datos:* Los datos en mal estado se transforman para un mejor manejo, conocimiento e implementación.
+></div>
 >
 > *Archivos creados:*
 >
 > [ETL.ipynb](ETL/ETL.ipynb): <div> Contiene todas las transformaciones necesarias y requeridas para completa este proyecto</div>
-> [EDA.ipynb](EDA/EDA.ipynb): <div> Contiene el analísis, descriptivos, estadístico realizado, contiene grafícos, columnas de agregación(Echa un Vistazo :muscle:)</div>
+> [EDA.ipynb](EDA/EDA.ipynb): <div> Contiene el analísis, descriptivos, estadístico realizado, contiene grafícos, columnas de agregación(Echa un Vistazo :eyes:)</div>
 > [RecSys.ipynb](ML/RecSys.ipynb): <div> Contiene el sistema de recomendación de películas</div>
 > [main.py](Fastapi-deploy/main.py): <div> Contiene las funciones requeridas para deployar el modelo, además contiene otras funciones</div>
   
