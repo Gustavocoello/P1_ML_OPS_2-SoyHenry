@@ -22,7 +22,7 @@ def index():
 @app.get("/recomendacion/")
 async def recomendacion(movie):
     matriz = pd.read_parquet("ml1.parquet")
-    vector = pd.read_parquet("vector.parquet")
+    vector = pd.read_parquet("vectores.parquet")
     # Convertimos de df a numpy
     vectors = vector.to_numpy()
     # Calcular la similitud  del coseno
