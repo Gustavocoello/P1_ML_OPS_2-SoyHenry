@@ -19,7 +19,7 @@ Este proyecto se basa en un **`MLOps`**, y un **`MVP`** (_Minimum Viable Product
 > **Transformación de Datos:** Los datos en mal estado se transforman para un mejor manejo, conocimiento e implementación.
 ></div>
 ><div>
-> *Archivos creados:* <div>
+> *Archivos creados:* </div>
 >
 > [ETL.ipynb](ETL/ETL.ipynb): <div> Contiene todas las transformaciones necesarias y requeridas para completa este proyecto</div>
 > [EDA.ipynb](EDA/EDA.ipynb): <div> Contiene el analísis, descriptivos, estadístico realizado, contiene grafícos, columnas de agregación(Echa un Vistazo :eyes:)</div>
