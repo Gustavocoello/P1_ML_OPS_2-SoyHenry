@@ -21,7 +21,7 @@ def index():
 
 @app.get("/recomendacion/")
 async def recomendacion(name):
-    movies = pd.read_parquet("movie.parquet")
+    movies = pd.read_csv("movies.csv")
     
     indice = movies[movies['movie'] == name].index[0]
     recomendacion = movies.iloc[indice]['recomendations']
