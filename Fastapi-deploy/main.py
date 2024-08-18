@@ -20,20 +20,13 @@ def index():
     return "Hola, mundo"
 
 @app.get("/recomendacion/")
-async def recomendacion(movie):
-    matriz = pd.read_parquet("ml1.parquet")
-    vector = pd.read_parquet("vectores.parquet")
-    # Convertimos de df a numpy
-    vectors = vector.to_numpy()
-    # Calcular la similitud  del coseno
-    similarity = cosine_similarity(vectors)
-
-    movie_index = matriz[matriz['name'] == movie].index[0]
-    distances = similarity[movie_index]
-    movies_list = sorted(list(enumerate(distances)), reverse = True, key = lambda x:x[1])[1:6]
-   
-    recommend_movies = [matriz.iloc[i[0]]['name'] for i in movies_list]
-    return {"Recommend_movies": recommend_movies}
+async def recomendacion(name):
+    movies = pd.read_parquet("movie.parquet")
+    
+    indice = movies[movies['movie'] == name].index[0]
+    recomendacion = movies.iloc[indice]['recomendations']
+    return recomendacion
+    
 
 @app.get("/cantidad_filmaciones_mes/")
 async def cantidad_filmaciones_mes(Mes):
